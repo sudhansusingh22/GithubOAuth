@@ -24,7 +24,7 @@ Authenticate with Github and get repositories information.
 2. Once install is completed execute `npm run setup:init`
   This will:
     1. Start RethinkDB: `rethinkdb`
-    2. Import the schema and permission rules to RethinkDB server: `hz schema apply -n react_horizon -c localhost:28015 ./config/rethinkdb/schema.toml`
+    2. Import the schema and permission rules to RethinkDB server: `hz schema apply -n githubOauth -c localhost:28015 ./config/rethinkdb/schema.toml`
        (change the name of the project if you changed in the previous step and the connection URL if it is different for you)
     3. Create the self-signed certificate (`hz create-cert`) for SSL and move them to the `config/tls` directory: `hz create-cert && mv *.pem config/tls`
        (this command will create two files, `horizon-cert.pem` and `horizon-key.pem` which you can find in `config/tls`)
