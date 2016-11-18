@@ -1,6 +1,6 @@
-# react-horizon
+# Github-Oauth
 
-This application shows how to integrate React, React Router, and Horizon.io with OAuth authentication. You can follow the [tutorial](http://tutorials.pluralsight.com/interesting-apis/building-a-real-time-application-with-react-react-router-horizon-io-and-oauth) to build this application or jump straight to the code.
+Authenticate with Github and get repositories information.
 
 # Requirements
 
@@ -11,8 +11,8 @@ This application shows how to integrate React, React Router, and Horizon.io with
 # Pre-Install
 1. Register a new application on Github:
   1. Go to https://github.com/settings/applications/new and enter the following information:
-     - **Application name:** react_horizon (any name will do)
-     - **Homepage URL:** https://localhost:8181 (or whatever your URL is, just remember the *https* part)
+     - **Application name:** githubOauth
+     - **Homepage URL:** https://localhost:8181 
   2. When you register the application, the client ID, and client secret will be presented
   3. Copy this values to the `config/index.js` in the `github_oauth_options` object
   4. In this file, change `token_secret` for something else.
