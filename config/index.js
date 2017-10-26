@@ -11,7 +11,7 @@ module.exports = {
 
   github_oauth_options: {
     path: 'github',
-    id: '63f7f2c6e67f52a45e50',
-    secret: 'da295e87decd68219403e75195f9174147a5a302',
+    id: '',
+    secret: '',
   },
 };
